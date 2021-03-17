@@ -1,0 +1,74 @@
+{
+  "uid" : "a2706cef51c01ec",
+  "name" : "User is not allowed to login with invalid credentials",
+  "fullName" : "Douglas Login Test.User is not allowed to login with invalid credentials",
+  "historyId" : "81f879ea2f35a6cf477793471b03318e",
+  "time" : {
+    "start" : 1615998667510,
+    "stop" : 1615998674737,
+    "duration" : 7227
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Douglas Login Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Douglas Login Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "User is not allowed to login with invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Douglas Login Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4a6b9fa804b84d01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998614280,
+        "stop" : 1615998620606,
+        "duration" : 6326
+      }
+    }, {
+      "uid" : "454aae9847fad7f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998578840,
+        "stop" : 1615998586121,
+        "duration" : 7281
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2706cef51c01ec.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

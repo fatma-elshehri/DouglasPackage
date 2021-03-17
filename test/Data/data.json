@@ -1,0 +1,14 @@
+{
+    "invalidCred": {
+      "email": "douglas.test2021@gmail.com",
+      "password": "Qwer@12"
+    },
+    "validCred": {
+        "email": "douglas.test2021@gmail.com",
+        "password": "Qwer@123"
+    },
+    "loginWelcomeMsg": "Hallo",
+    "invalidLoginMsg": "Falsche Zugangsdaten",
+    "emailSentMsg": "E-Mail verschickt",
+    "myDouglasURL": "https://www.douglas.de/de/account"
+}

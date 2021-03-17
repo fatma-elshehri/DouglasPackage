@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615998614279' stop='1615998635366'>
+    <name>Douglas Login Test</name>
+    <title>Douglas Login Test</title>
+    <test-cases>
+        <test-case start='1615998614280' status='passed' stop='1615998620606'>
+            <name>User is not allowed to login with invalid credentials</name>
+            <title>User is not allowed to login with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1615998620607' status='passed' stop='1615998624692'>
+            <name>User is allowed to login with valid credentials</name>
+            <title>User is allowed to login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1615998624692' status='failed' stop='1615998635365'>
+            <name>Welcome message is displayed to logged in user</name>
+            <title>Welcome message is displayed to logged in user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='56ee2b40-3168-4cd6-882e-250cc5842a9c-attachment.png' type='image/png' size='115404'/>
+            </attachments>
+            <failure>
+                <message>Text of welcome message is not as expected
+                Expect $(`h2[class='headline-bold account-overview-head__title']`) to have text containing
+                
+                Expected: "Hao"
+                Received: "Hallo Ftest Ltest ,"</message>
+                <stack-trace>Error: Text of welcome message is not as expected
+                Expect $(`h2[class='headline-bold account-overview-head__title']`) to have text containing
+                
+                Expected: "Hao"
+                Received: "Hallo Ftest Ltest ,"
+                    at Context.&lt;anonymous> (C:\WebDriverIO\DouglasPackage\test\specs\Login.e2e.js:47:45)
+                    at Context.executeSync (C:\WebDriverIO\DouglasPackage\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\WebDriverIO\DouglasPackage\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

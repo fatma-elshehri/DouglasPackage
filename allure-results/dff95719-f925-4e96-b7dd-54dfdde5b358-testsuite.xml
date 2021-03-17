@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615998614284' stop='1615998621041'>
+    <name>Douglas Fotgot Password Test</name>
+    <title>Douglas Fotgot Password Test</title>
+    <test-cases>
+        <test-case start='1615998614285' status='passed' stop='1615998621037'>
+            <name>Send reset password email</name>
+            <title>Send reset password email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

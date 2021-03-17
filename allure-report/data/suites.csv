@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 17 17:31:07 CET 2021","Wed Mar 17 17:31:15 CET 2021","7790","","Douglas Fotgot Password Test","","Douglas Fotgot Password Test","Send reset password email","Send reset password email",""
+"passed","Wed Mar 17 17:31:14 CET 2021","Wed Mar 17 17:31:18 CET 2021","3879","","Douglas Login Test","","Douglas Login Test","User is allowed to login with valid credentials","User is allowed to login with valid credentials",""
+"passed","Wed Mar 17 17:31:07 CET 2021","Wed Mar 17 17:31:14 CET 2021","7227","","Douglas Login Test","","Douglas Login Test","User is not allowed to login with invalid credentials","User is not allowed to login with invalid credentials",""
+"passed","Wed Mar 17 17:31:18 CET 2021","Wed Mar 17 17:31:18 CET 2021","275","","Douglas Login Test","","Douglas Login Test","Welcome message is displayed to logged in user","Welcome message is displayed to logged in user",""

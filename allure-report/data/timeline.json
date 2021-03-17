@@ -1,0 +1,169 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "User is allowed to login with valid credentials",
+      "uid" : "e34d8d465be188e6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998674738,
+        "stop" : 1615998678617,
+        "duration" : 3879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Welcome message is displayed to logged in user",
+      "uid" : "1d0710c5ce8ede25",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1615998624692,
+        "stop" : 1615998635365,
+        "duration" : 10673
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "User is not allowed to login with invalid credentials",
+      "uid" : "4a6b9fa804b84d01",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998614280,
+        "stop" : 1615998620606,
+        "duration" : 6326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "User is allowed to login with valid credentials",
+      "uid" : "4b28b67930e3ac1d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998620607,
+        "stop" : 1615998624692,
+        "duration" : 4085
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Welcome message is displayed to logged in user",
+      "uid" : "aedc50acf96661fc",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998589844,
+        "stop" : 1615998590129,
+        "duration" : 285
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "User is allowed to login with valid credentials",
+      "uid" : "86b78f6dbd2130d9",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998586122,
+        "stop" : 1615998589842,
+        "duration" : 3720
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "User is not allowed to login with invalid credentials",
+      "uid" : "454aae9847fad7f5",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998578840,
+        "stop" : 1615998586121,
+        "duration" : 7281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Welcome message is displayed to logged in user",
+      "uid" : "e3033ab20b03ece8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998678617,
+        "stop" : 1615998678892,
+        "duration" : 275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "User is not allowed to login with invalid credentials",
+      "uid" : "a2706cef51c01ec",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998667510,
+        "stop" : 1615998674737,
+        "duration" : 7227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Send reset password email",
+      "uid" : "5b158a6198feb282",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998578872,
+        "stop" : 1615998585950,
+        "duration" : 7078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Send reset password email",
+      "uid" : "8a82c075761c6f67",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998614285,
+        "stop" : 1615998621037,
+        "duration" : 6752
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    }, {
+      "name" : "Send reset password email",
+      "uid" : "34f81cc6b28fd363",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998667508,
+        "stop" : 1615998675298,
+        "duration" : 7790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-89.0.4389.82" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
+}

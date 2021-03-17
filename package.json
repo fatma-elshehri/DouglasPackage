@@ -1,0 +1,29 @@
+{
+  "name": "douglaspackage",
+  "version": "1.0.0",
+  "description": "Douglas automation testing task by Fatma Elshehri",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/wdio ./wdio.conf.js",
+    "DougTestSuite": "node_modules/.bin/wdio ./wdio.conf.js --suite DougTestSuite"
+
+  },
+  "author": "Fatma Elshehri",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.1.1",
+    "@wdio/local-runner": "^7.1.2",
+    "@wdio/mocha-framework": "^7.1.2",
+    "@wdio/spec-reporter": "^7.1.1",
+    "@wdio/sync": "^7.1.1",
+    "chai": "^4.3.4",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^89.0.0",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^7.0.0",
+    "webdriverio": "^7.1.1"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.1.2"
+  }
+}

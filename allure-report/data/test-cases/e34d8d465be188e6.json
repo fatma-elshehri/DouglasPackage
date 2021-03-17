@@ -1,0 +1,74 @@
+{
+  "uid" : "e34d8d465be188e6",
+  "name" : "User is allowed to login with valid credentials",
+  "fullName" : "Douglas Login Test.User is allowed to login with valid credentials",
+  "historyId" : "3dcdc805635cd84471bb9881994574c2",
+  "time" : {
+    "start" : 1615998674738,
+    "stop" : 1615998678617,
+    "duration" : 3879
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Douglas Login Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Douglas Login Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "User is allowed to login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Douglas Login Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4b28b67930e3ac1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998620607,
+        "stop" : 1615998624692,
+        "duration" : 4085
+      }
+    }, {
+      "uid" : "86b78f6dbd2130d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998586122,
+        "stop" : 1615998589842,
+        "duration" : 3720
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e34d8d465be188e6.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

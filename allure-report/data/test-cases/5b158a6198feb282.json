@@ -1,0 +1,56 @@
+{
+  "uid" : "5b158a6198feb282",
+  "name" : "Send reset password email",
+  "fullName" : "Douglas Fotgot Password Test.Send reset password email",
+  "historyId" : "3bc3c61d948dd3c48dea63838a2e2576",
+  "time" : {
+    "start" : 1615998578872,
+    "stop" : 1615998585950,
+    "duration" : 7078
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Douglas Fotgot Password Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Douglas Fotgot Password Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Send reset password email"
+  }, {
+    "name" : "package",
+    "value" : "Douglas Fotgot Password Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b158a6198feb282.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

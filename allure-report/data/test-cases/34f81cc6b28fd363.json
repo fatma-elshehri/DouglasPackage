@@ -1,0 +1,74 @@
+{
+  "uid" : "34f81cc6b28fd363",
+  "name" : "Send reset password email",
+  "fullName" : "Douglas Fotgot Password Test.Send reset password email",
+  "historyId" : "3bc3c61d948dd3c48dea63838a2e2576",
+  "time" : {
+    "start" : 1615998667508,
+    "stop" : 1615998675298,
+    "duration" : 7790
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Douglas Fotgot Password Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Douglas Fotgot Password Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Send reset password email"
+  }, {
+    "name" : "package",
+    "value" : "Douglas Fotgot Password Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8a82c075761c6f67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998614285,
+        "stop" : 1615998621037,
+        "duration" : 6752
+      }
+    }, {
+      "uid" : "5b158a6198feb282",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615998578872,
+        "stop" : 1615998585950,
+        "duration" : 7078
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34f81cc6b28fd363.json",
+  "parameterValues" : [ "chrome-89.0.4389.82" ]
+}

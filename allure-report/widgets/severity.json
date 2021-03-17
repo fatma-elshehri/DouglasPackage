@@ -1,0 +1,41 @@
+[ {
+  "uid" : "e3033ab20b03ece8",
+  "name" : "Welcome message is displayed to logged in user",
+  "time" : {
+    "start" : 1615998678617,
+    "stop" : 1615998678892,
+    "duration" : 275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e34d8d465be188e6",
+  "name" : "User is allowed to login with valid credentials",
+  "time" : {
+    "start" : 1615998674738,
+    "stop" : 1615998678617,
+    "duration" : 3879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34f81cc6b28fd363",
+  "name" : "Send reset password email",
+  "time" : {
+    "start" : 1615998667508,
+    "stop" : 1615998675298,
+    "duration" : 7790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2706cef51c01ec",
+  "name" : "User is not allowed to login with invalid credentials",
+  "time" : {
+    "start" : 1615998667510,
+    "stop" : 1615998674737,
+    "duration" : 7227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
