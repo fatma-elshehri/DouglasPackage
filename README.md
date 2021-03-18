@@ -8,6 +8,6 @@ Commands to execute tests and generate reports:
 
 Run tests: npm run DougTestSuite.
 
-Generate Allure report (optional): Allure generate –- clean.
+Generate Allure report (optional): Allure generate –-clean.
 
 Open Allure repot: Allure open.
